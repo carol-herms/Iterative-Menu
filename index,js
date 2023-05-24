@@ -1,0 +1,35 @@
+let opcoes = ""
+
+
+do {
+    opcoes = prompt(
+        "Welcome!\n" +
+        "Choose one of the options below" +
+        "\n 1. Option One"+
+        "\n 2. Option Two" +     
+        "\n 3. Option Three"+
+        "\n 4. Option Four"+
+        "\n 5. Exit"
+    ) 
+    switch (opcoes) {
+        case "1":
+            alert ("Option 1 chosen")
+            break
+        case "2":
+            alert ("Option 2 chosen")
+            break
+        case "3":
+            alert ("Option 3 chosen")
+            break
+        case "4":
+            alert ("Option 4 chosen")
+            break
+        case "5":
+            alert ("Shutting down ...")
+            break
+        
+        default:
+            alert ("Invalid Option")
+    }
+                                        
+    } while (opcoes !== "5")
